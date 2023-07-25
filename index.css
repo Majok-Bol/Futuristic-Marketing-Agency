@@ -30,3 +30,39 @@ a {
   text-decoration: none;
 }
 
+.welcome {
+    background-image: url("./images/001.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100vh;
+    width: 100%;
+}
+
+.welcome-overlay{
+    content: "";
+    background: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100vh;
+    width: 100%;
+}
+
+#header {
+    position: absolute;
+    top: 0;
+    z-index: 99;
+}
+
+.welcome2 {
+    position: relative;
+    top: 10rem;
+    z-index: 99;
+    width: 80%;
+    margin: auto;
+    color: white;
+}
+
