@@ -8,6 +8,38 @@ body {
   left: 5%;
   z-index: 99;
 }
+.para {
+  font-size: 2rem;
+}
+.welcome {
+  background-image: url("./images/001.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100vh;
+  width: 100%;
+}
+
+.welcome-overlay {
+  content: "";
+  background: rgba(0, 0, 0, 0.6);
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100vh;
+  width: 100%;
+}
+
+.welcome2 {
+  position: relative;
+  top: 15rem;
+  z-index: 99;
+  width: 80%;
+  margin: auto;
+  color: white;
+}
 
 .nav-container {
   display: flex;
@@ -34,33 +66,6 @@ a {
   font-size: 1.5rem;
 }
 
-.marketing {
-  display: flex;
-}
-.digital-image {
-  width: 60%;
-  margin-left: 3rem;
-  border-radius: 10px;
-}
-.digital-text {
-  font-size: 1.7rem;
-  width: 60%;
-  margin-top: 1rem;
-}
-.digital {
-  position: relative;
-  top: 37rem;
-  left: 10%;
-  /* padding-bottom: 50rem; */
-}
-.digital-head {
-  font-size: 3rem;
-}
-.image {
-  width: 60%;
-  height: 60%;
-  margin: 0;
-}
 .Btn {
   width: 200px;
   height: 80px;
@@ -119,10 +124,37 @@ a {
   padding: 2rem;
   /* font-size: 5rem; */
 }
+.marketing {
+  display: flex;
+}
+.digital-image {
+  width: 60%;
+  margin-left: 3rem;
+  border-radius: 10px;
+}
+.digital-text {
+  font-size: 1.7rem;
+  width: 60%;
+  margin-top: 1rem;
+}
+.digital {
+  position: relative;
+  top: 37rem;
+  left: 10%;
+  /* padding-bottom: 50rem; */
+}
+.digital-head {
+  font-size: 3rem;
+}
+.image {
+  width: 60%;
+  height: 60%;
+  margin: 0;
+}
 .social {
   position: relative;
   top: 37rem;
-  padding-bottom: 50rem;
+  padding-bottom: 40rem;
   width: 90%;
   left: 3rem;
 }
@@ -143,31 +175,30 @@ a {
   width: 30%;
   margin-top: 1.5rem;
 }
-.content{
-  position:relative;
- padding-bottom:10rem;
-
+.content {
+  position: relative;
+  padding-bottom: 4rem;
+  left:2rem;
 }
-.content-div{
-  display:flex;
-
+.content-div {
+  display: flex;
 }
-.content-heading{
+.content-heading {
   font-size: 1.7rem;
   width: 30%;
   margin-left: 2rem;
 }
 
-.content-image{
+.content-image {
   width: 100%;
   margin: 0;
   border-radius: 10px;
 }
-.content-img{
-  width:50%;
+.content-img {
+  width: 50%;
 }
-.para {
-  font-size: 2rem;
+.content-head {
+  width: 23%;
 }
 
 .head {
@@ -175,32 +206,53 @@ a {
   text-align: center;
 }
 
-.welcome {
-  background-image: url("./images/001.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  position: absolute;
-  left: 0;
-  top: 0;
-  height: 100vh;
-  width: 100%;
-}
-
-.welcome-overlay {
-  content: "";
-  background: rgba(0, 0, 0, 0.6);
-  position: absolute;
-  left: 0;
-  top: 0;
-  height: 100vh;
-  width: 100%;
-}
-
-.welcome2 {
+.branding {
   position: relative;
-  top: 15rem;
-  z-index: 99;
-  width: 80%;
-  margin: auto;
-  color: white;
+
+  padding-bottom: 40rem;
+  width: 90%;
+  left: 4rem;
+}
+.brand-container {
+  display: flex;
+  flex-direction: row-reverse;
+  gap: 2rem;
+}
+.brand-img-div {
+  width: 60%;
+}
+.brand-image {
+  width: 100%;
+  border-radius: 10px;
+}
+.branding-text {
+  font-size: 1.5rem;
+  width: 30%;
+  margin-top: 1.5rem;
+}
+.brand-head {
+  font-size: 3rem;
+  text-align: center;
+}
+.portfolio {
+  position: relative;
+  padding-bottom: 4rem;
+  left:2rem;
+}
+.portfolio-div {
+  display: flex;
+}
+.portfolio-head {
+  font-size: 1.7rem;
+  width: 30%;
+  margin-left: 2rem;
+}
+
+.portfolio-image {
+  width: 100%;
+  margin: 0;
+  border-radius: 10px;
+}
+.portfolio-img {
+  width: 50%;
 }
