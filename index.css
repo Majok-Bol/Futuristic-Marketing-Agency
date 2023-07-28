@@ -178,7 +178,7 @@ a {
 .content {
   position: relative;
   padding-bottom: 4rem;
-  left:2rem;
+  left: 2rem;
 }
 .content-div {
   display: flex;
@@ -191,7 +191,7 @@ a {
 
 .content-image {
   width: 100%;
-  margin: 0;
+  margin-left: 3rem;
   border-radius: 10px;
 }
 .content-img {
@@ -209,7 +209,7 @@ a {
 .branding {
   position: relative;
 
-  padding-bottom: 40rem;
+  padding-bottom: 8rem;
   width: 90%;
   left: 4rem;
 }
@@ -234,23 +234,26 @@ a {
   font-size: 3rem;
   text-align: center;
 }
-.portfolio {
+.portfolio-section {
   position: relative;
-  padding-bottom: 4rem;
-  left:2rem;
+  padding-bottom: 10rem;
+  left: 2rem;
 }
 .portfolio-div {
   display: flex;
 }
-.portfolio-head {
+.portfolio-text {
   font-size: 1.7rem;
   width: 30%;
   margin-left: 2rem;
 }
+.portfolio-head {
+  font-size: 3rem;
+}
 
 .portfolio-image {
   width: 100%;
-  margin: 0;
+  margin-left: 2rem;
   border-radius: 10px;
 }
 .portfolio-img {
