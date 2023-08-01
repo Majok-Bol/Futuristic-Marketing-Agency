@@ -561,7 +561,9 @@ select{
  
   
 }
-
+.message{
+  font-size: 1.6rem;
+}
 .form-section{
 background-color: rgba(38, 38, 38, 0.545);
   text-align:center;
