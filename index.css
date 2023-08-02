@@ -12,7 +12,7 @@ body {
   font-size: 2rem;
 }
 .text{
-  padding-bottom:4rem;
+  padding-bottom:1rem;
 }
 .welcome {
   background-image: url("./images/001.jpg");
@@ -125,7 +125,6 @@ a {
 }
 .button {
   padding: 2rem;
-  /* font-size: 5rem; */
 }
 .marketing {
   display: flex;
@@ -584,5 +583,29 @@ background-color: rgba(38, 38, 38, 0.545);
 button{
   background-color:#892be22a;
 }
-
-
+#icons{
+  display:flex;
+  justify-content: space-around;
+  padding:1rem;
+}
+.texts{
+  font-size:0.7rem;
+  margin-left: 0.5rem;
+  /* color:white; */
+}
+.terms{
+  display:flex;
+  justify-content: space-around;
+}
+.copy{
+  font-size:1.2rem;
+  color:white;
+ 
+}
+.copyrights{
+  height:3rem;
+}
+ footer{
+  background-color: #00000095;
+  padding:2rem;
+ }
