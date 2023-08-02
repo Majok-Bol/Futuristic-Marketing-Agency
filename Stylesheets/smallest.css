@@ -1,0 +1,596 @@
+@media (min-width: 195px) and (max-width: 494px) {
+  body {
+    margin: 0;
+    overflow-x: hidden;
+  }
+  #header {
+    position: absolute;
+    display: flex;
+    left: 5%;
+    z-index: 99;
+  }
+  .para {
+    font-size: 2rem;
+  }
+  .text {
+    padding-bottom: 1rem;
+  }
+  .welcome {
+    background-image: url("../images/001.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 0;
+    height: 70vh;
+    width: 100%;
+  }
+
+  .welcome-overlay {
+    content: "";
+    background: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 10vh;
+    width: 40%;
+  }
+
+  .welcome2 {
+    position: relative;
+    top: 15rem;
+    z-index: 99;
+    width: 80%;
+    margin: auto;
+    color: white;
+  }
+
+  .nav-container {
+    display: flex;
+    justify-content: space-around;
+    gap: 2rem;
+    flex-direction: row;
+    padding: 1rem;
+  }
+  .image-header {
+    width: 30%;
+  }
+  .logos {
+    padding: 3rem;
+  }
+  .image-logo {
+    width: 100%;
+  }
+  a {
+    text-decoration: none;
+    color: white;
+  }
+
+  .items {
+    font-size: 1.5rem;
+  }
+
+  .Btn {
+    width: 200px;
+    height: 80px;
+    border: none;
+    border-radius: 10px;
+    background: linear-gradient(
+      to right,
+      #77530a,
+      #ffd277,
+      #77530a,
+      #77530a,
+      #ffd277,
+      #77530a
+    );
+    background-size: 250%;
+    background-position: left;
+    color: #ffd277;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition-duration: 1s;
+    overflow: hidden;
+  }
+
+  .Btn::before {
+    position: absolute;
+    content: "GET STARTED";
+    color: #ffd277;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 97%;
+    height: 90%;
+    border-radius: 8px;
+    transition-duration: 1s;
+    background-color: rgba(0, 0, 0, 0.842);
+    background-size: 200%;
+  }
+
+  .Btn:hover {
+    background-position: right;
+    transition-duration: 1s;
+  }
+
+  .Btn:hover::before {
+    background-position: right;
+    transition-duration: 1s;
+  }
+
+  .Btn:active {
+    transform: scale(0.95);
+  }
+  .button {
+    padding: 2rem;
+  }
+  .marketing {
+    display: flex;
+    margin-top: -7rem;
+  }
+  .digital-image {
+    width: 60%;
+    margin-left: 3rem;
+    border-radius: 10px;
+  }
+  .digital-text {
+    font-size: 1.7rem;
+    width: 60%;
+    margin-top: 5.6rem;
+  }
+  .digital {
+    position: relative;
+    top: 30rem;
+    margin-left: 3rem;
+    padding-bottom: 4rem;
+  }
+  .digital-head {
+    font-size: 3rem;
+    /* text-align:right; */
+  }
+  .image {
+    width: 60%;
+    height: 60%;
+    margin: 0;
+  }
+  .social {
+    position: relative;
+    top: 30rem;
+    padding-bottom: 24rem;
+    width: 90%;
+    margin-left: 3.5rem;
+  }
+  .social-div {
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 2rem;
+    margin-top: -8rem;
+  }
+  .social-image-div {
+    width: 60%;
+  }
+  .social-image {
+    width: 100%;
+    border-radius: 10px;
+  }
+  .social-text {
+    font-size: 1.5rem;
+    width: 40%;
+    margin-top: 6rem;
+    margin-right: 3rem;
+  }
+  .social-head {
+    font-size: 3rem;
+    text-align: right;
+    margin-right: 8rem;
+    margin-top: 2rem;
+  }
+
+  .content {
+    position: relative;
+    padding-bottom: 12rem;
+    margin-left: 1.2rem;
+    top: 8rem;
+  }
+  .content-div {
+    display: flex;
+    margin-top: -6rem;
+  }
+  .content-text {
+    font-size: 1.7rem;
+    width: 30%;
+    margin-left: 2rem;
+    margin-top: 4rem;
+  }
+
+  .content-image {
+    width: 100%;
+    margin-left: 3rem;
+    border-radius: 10px;
+  }
+  .content-img {
+    width: 50%;
+  }
+  .content-head {
+    width: 23%;
+  }
+
+  .head {
+    font-size: 2.5rem;
+    text-align: center;
+  }
+
+  .branding {
+    position: relative;
+    width: 90%;
+    margin-left: -4rem;
+    top: -2rem;
+    padding-bottom: 10rem;
+  }
+  .brand-container {
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 2rem;
+    margin-top: -6rem;
+  }
+  .brand-img-div {
+    width: 60%;
+  }
+  .brand-image {
+    width: 100%;
+    border-radius: 10px;
+  }
+
+  .branding-text {
+    font-size: 1.5rem;
+    width: 30%;
+    margin-top: 4rem;
+  }
+  .brand-head {
+    font-size: 3rem;
+    text-align: right;
+    margin-right: 10rem;
+  }
+
+  .portfolio-section {
+    position: relative;
+    padding-bottom: 10rem;
+    top: -3rem;
+  }
+  .portfolio-div {
+    display: flex;
+    margin-top: -7rem;
+  }
+  .portfolio-text {
+    font-size: 1.7rem;
+    width: 30%;
+    margin-left: 2rem;
+    margin-top: 6rem;
+  }
+  .portfolio-head {
+    font-size: 3rem;
+    margin-bottom: 2rem;
+    margin-left: 4rem;
+  }
+  .portfolio-div {
+    left: 4rem;
+  }
+
+  .portfolio-image {
+    width: 100%;
+    margin-left: 2rem;
+    border-radius: 10px;
+  }
+  .portfolio-img {
+    width: 50%;
+  }
+  .successful-section {
+    position: relative;
+    width: 90%;
+    margin-left: -6rem;
+    /* padding-bottom: 2rem; */
+    top: -6rem;
+  }
+  .successful-text {
+    font-size: 1.5rem;
+    width: 30%;
+    margin-left: 2rem;
+  }
+  .successful {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+  .success-image {
+    width: 100%;
+    border-radius: 10px;
+  }
+  .success-img {
+    width: 60%;
+  }
+  .case-studies {
+    position: relative;
+    padding-bottom: 2rem;
+  }
+  .case-div {
+    display: flex;
+  }
+  .case-text {
+    font-size: 1.7rem;
+    width: 30%;
+    margin-left: 2rem;
+  }
+  .case-image {
+    width: 100%;
+    margin-left: 2rem;
+    border-radius: 10px;
+  }
+  .case-img {
+    width: 50%;
+  }
+  .case-studies {
+    position: relative;
+    padding-bottom: 10rem;
+  }
+  .case-text {
+    font-size: 1.5rem;
+    width: 30%;
+  }
+  .more-info {
+    position: relative;
+    width: 90%;
+    margin-left: -5.5rem;
+    top: -6rem;
+    padding-bottom: 4rem;
+  }
+  .more-div {
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 2rem;
+  }
+  .more-img {
+    width: 60%;
+  }
+  .more-image {
+    width: 100%;
+    border-radius: 10px;
+  }
+  .more-text {
+    font-size: 1.5rem;
+    width: 30%;
+    margin-top: 1rem;
+  }
+  .about {
+    position: relative;
+    padding-bottom: 2rem;
+    top: -6rem;
+  }
+  .about-head {
+    font-size: 3rem;
+    margin-bottom: 2rem;
+    margin-left: 4rem;
+  }
+  .about-us-div {
+    display: flex;
+    margin-top: -6rem;
+  }
+  .about-text {
+    font-size: 1.7rem;
+    width: 30%;
+    margin-left: 2rem;
+    margin-top: 6rem;
+  }
+  .about-image {
+    width: 100%;
+    margin-left: 2rem;
+    border-radius: 10px;
+  }
+  .about-img {
+    width: 50%;
+  }
+
+  .at-info {
+    position: relative;
+    width: 90%;
+    margin-left: -5rem;
+    top: -4rem;
+  }
+  .at-div {
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 2rem;
+  }
+  .at-img {
+    width: 60%;
+  }
+  .at-image {
+    width: 100%;
+    border-radius: 10px;
+  }
+  .at-text {
+    font-size: 1.5rem;
+    width: 30%;
+    margin-top: 1rem;
+  }
+  .priority {
+    position: relative;
+    padding-bottom: 4rem;
+    margin-left: 1.8rem;
+  }
+  .priority-div {
+    display: flex;
+  }
+  .priority-text {
+    font-size: 1.7rem;
+    width: 30%;
+    margin-left: 2rem;
+  }
+  .priority-image {
+    width: 100%;
+    margin-left: 2rem;
+    border-radius: 10px;
+  }
+  .priority-img {
+    width: 50%;
+  }
+  .great {
+    position: relative;
+    width: 90%;
+    margin-left: -5rem;
+    padding-bottom: 2rem;
+  }
+  .great-div {
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 2rem;
+  }
+  .great-img {
+    width: 60%;
+  }
+  .great-image {
+    width: 100%;
+    border-radius: 10px;
+  }
+  .great-text {
+    font-size: 1.5rem;
+    width: 30%;
+    margin-top: 1rem;
+  }
+  .future {
+    position: relative;
+    padding-bottom: 2rem;
+  }
+  .future-div {
+    display: flex;
+  }
+  .future-text {
+    font-size: 1.7rem;
+    width: 20%;
+    margin-left: 2rem;
+  }
+  .future-image {
+    width: 100%;
+    margin-left: 2rem;
+    border-radius: 10px;
+  }
+  .future-img {
+    width: 50%;
+  }
+  .contacts {
+    position: relative;
+    width: 90%;
+    margin-left: -3.5rem;
+    padding-bottom: 4rem;
+  }
+  .contact-div {
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 2rem;
+    margin-top: -8rem;
+  }
+  .contact-img {
+    width: 60%;
+  }
+  .contact-heading {
+    font-size: 3rem;
+    text-align: right;
+    margin-right: 10rem;
+    /* margin-right:-3rem; */
+  }
+  .contact-image {
+    width: 100%;
+    border-radius: 10px;
+  }
+  .contact-text {
+    font-size: 1.5rem;
+    width: 30%;
+    margin-top: 6rem;
+  }
+  .info-text {
+    font-size: 1.7rem;
+  }
+  #name {
+    width: 15%;
+    height: 0.5rem;
+    padding: 0.5rem;
+    border-radius: 10px;
+    font-size: 14px;
+  }
+  .label {
+    font-size: 1.5rem;
+  }
+  #email {
+    width: 15%;
+    height: 0.5rem;
+    padding: 0.5rem;
+    border-radius: 10px;
+    font-size: 14px;
+  }
+  .email {
+    font-size: 1.5rem;
+  }
+  select {
+    width: 15%;
+    height: 0.8rem;
+    padding: 0.8rem;
+    border-radius: 10px;
+    font-size: 14px;
+  }
+  .subject {
+    font-size: 1.5rem;
+  }
+  #textarea {
+    width: 20%;
+    height: 8rem;
+    padding: 0.5rem;
+    border-radius: 10px;
+    font-size: 14px;
+    margin-top: 1rem;
+    margin-left: 1.5rem;
+  }
+  .message {
+    font-size: 1.6rem;
+  }
+  .form-section {
+    background-color: rgba(38, 38, 38, 0.545);
+    text-align: center;
+    padding: 2rem;
+  }
+  .submit-button {
+    padding: 1rem;
+    margin-top: 1rem;
+    border-radius: 10px;
+    width: 10%;
+    font-size: 0.95rem;
+    text-align: center;
+  }
+  button {
+    background-color: #892be22a;
+  }
+  #icons {
+    display: flex;
+    justify-content: space-around;
+    padding: 1rem;
+  }
+  .texts {
+    font-size: 0.7rem;
+    margin-left: 0.5rem;
+    /* color:white; */
+  }
+  .terms {
+    display: flex;
+    justify-content: space-around;
+  }
+  .copy {
+    font-size: 1.2rem;
+    color: white;
+  }
+  .copyrights {
+    height: 3rem;
+  }
+  footer {
+    background-color: #00000095;
+    padding: 2rem;
+  }
+}
