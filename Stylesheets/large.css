@@ -508,7 +508,7 @@
     margin-top:-10rem;
   }
   #name {
-    width: 15%;
+    width: 25%;
     height: 0.5rem;
     padding: 0.5rem;
     border-radius: 10px;
@@ -518,7 +518,7 @@
     font-size: 1.5rem;
   }
   #email {
-    width: 15%;
+    width: 25%;
     height: 0.5rem;
     padding: 0.5rem;
     border-radius: 10px;
@@ -528,7 +528,7 @@
     font-size: 1.5rem;
   }
   select {
-    width: 15%;
+    width: 25%;
     height: 0.8rem;
     padding: 0.8rem;
     border-radius: 10px;
