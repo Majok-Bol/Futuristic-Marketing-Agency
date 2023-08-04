@@ -142,7 +142,7 @@
   }
   .digital {
     position: relative;
-    top:40rem;
+    top:37rem;
     margin-left: 3rem;
     padding-bottom: 10rem;
     width: 100%;
@@ -224,8 +224,8 @@
     position: relative;
     width: 100%;
     margin-left: 4rem;
-    top: 14rem;
-    padding-bottom: 1rem;
+    top: 18rem;
+    padding-bottom: 10rem;
   }
   .brand-container {
     display: flex;
@@ -530,7 +530,7 @@
   }
   .info-text {
     font-size: 2rem;
-    margin-top:10rem;
+    margin-top:rem;
     margin-left:2rem;
   }
   #name {
