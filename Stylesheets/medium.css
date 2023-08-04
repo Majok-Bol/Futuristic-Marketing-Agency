@@ -374,9 +374,10 @@
     top: -22rem;
   }
   .about-head {
-    font-size: 3rem;
+    font-size: 4rem;
     margin-bottom: 2rem;
     margin-left: 4rem;
+    text-align: center;
   }
   .about-us-div {
     display: flex;
@@ -538,7 +539,7 @@
     height: 0.8rem;
     padding: 0.5rem;
     border-radius: 10px;
-    font-size: 14px;
+    font-size: 18px;
   }
   .label {
     font-size: 1.5rem;
@@ -548,32 +549,32 @@
     height: 0.8rem;
     padding: 0.5rem;
     border-radius: 10px;
-    font-size: 14px;
+    font-size: 18px;
   }
   .email {
     font-size: 1.5rem;
   }
   select {
     width: 45%;
-    height: 2rem;
+    height: 3rem;
     padding: 0.8rem;
     border-radius: 10px;
     font-size: 14px;
   }
   .subject {
-    font-size: 1.5rem;
+    font-size: 1.8rem;
   }
   #textarea {
-    width: 40%;
-    height: 8rem;
+    width: 80%;
+    height: 9rem;
     padding: 0.5rem;
     border-radius: 10px;
-    font-size: 14px;
+    font-size:19px;
     margin-top: 1rem;
     margin-left: 1.5rem;
   }
   .message {
-    font-size: 1.6rem;
+    font-size: 1.8rem;
   }
   .form-section {
     background-color: rgba(38, 38, 38, 0.545);
@@ -599,7 +600,7 @@
     padding: 1rem;
   }
   .texts {
-    font-size: 0.7rem;
+    font-size: 0.9rem;
     margin-left: 0.5rem;
   }
   .terms {
