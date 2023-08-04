@@ -12,9 +12,6 @@
   .para {
     font-size: 2rem;
   }
-  .text {
-    padding-bottom: 1rem;
-  }
   .welcome {
     background-image: url("../images/001.jpg");
     background-size: cover;
@@ -136,6 +133,7 @@
     width: 100%;
     margin-top: 5rem;
     border-radius: 10px;
+    margin-left:-1.95rem;
   }
   .digital-text {
     font-size: 1.9rem;
@@ -144,9 +142,9 @@
   }
   .digital {
     position: relative;
-    top: 37rem;
+    top:40rem;
     margin-left: 3rem;
-    padding-bottom: 15rem;
+    padding-bottom: 10rem;
     width: 100%;
   }
   .digital-head {
@@ -155,8 +153,8 @@
   }
   .social {
     position: relative;
-    top: 24rem;
-    padding-bottom: 24rem;
+    top: 4rem;
+    padding-bottom: 4rem;
     width: 100%;
     margin-left: 3.5rem;
   }
@@ -167,7 +165,7 @@
     margin-top: -8rem;
   }
   .social-image-div {
-    width: 100%;
+    width: 90%;
   }
   .social-image {
     width: 100%;
@@ -371,7 +369,7 @@
   .about {
     position: relative;
     padding-bottom: 2rem;
-    top: -22rem;
+    top: -26rem;
   }
   .about-head {
     font-size: 4rem;
@@ -404,7 +402,7 @@
     position: relative;
     width: 100%;
     margin-left: 4rem;
-    top: -22rem;
+    top: -26rem;
   }
   .at-div {
     display: flex;
@@ -427,7 +425,7 @@
     position: relative;
     padding-bottom: 4rem;
     margin-left: 1.8rem;
-    top: -20rem;
+    top: -24rem;
   }
   .priority-div {
     display: flex;
@@ -452,7 +450,7 @@
     width: 90%;
     margin-left: 4rem;
     padding-bottom: 2rem;
-    top: -20rem;
+    top: -24rem;
   }
   .great-div {
     display: flex;
@@ -474,7 +472,7 @@
   .future {
     position: relative;
     padding-bottom: 2rem;
-    top: -16rem;
+    top: -19rem;
   }
   .future-div {
     display: flex;
@@ -500,7 +498,7 @@
     width: 100%;
     margin-left: -3.5rem;
     padding-bottom: 4rem;
-    top: -22rem;
+    top: -24rem;
   }
   .contact-div {
     display: flex;
@@ -512,8 +510,8 @@
     width: 100%;
   }
   .contact-heading {
-    font-size: 2.5rem;
-    text-align: left;
+    font-size: 2.2rem;
+    text-align: center;
     margin-left: 18rem;
     padding: 2rem;
   }
@@ -531,7 +529,7 @@
   }
   .info-text {
     font-size: 2rem;
-    margin-top:-22rem;
+    margin-top:-24rem;
     margin-left:2rem;
   }
   #name {
