@@ -1,4 +1,4 @@
-@media (min-width: 767px)  {
+@media (min-width: 767px) and (max-width:1111px) {
   body {
     margin: 0;
     overflow-x: hidden;
