@@ -1,4 +1,4 @@
-@media (min-width: 1112px) and (max-width: 1250px) {
+@media (min-width: 212px) and (max-width: 720px) {
   body {
     margin: 0;
     overflow-x: hidden;
@@ -22,7 +22,7 @@
     position: absolute;
     left: 0;
     top: 0;
-    height: 100vh;
+    height: 65vh;
     width: 100%;
   }
 
