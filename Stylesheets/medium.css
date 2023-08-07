@@ -1,4 +1,4 @@
-@media (min-width: 767px) and (max-width: 1111px) {
+@media (min-width: 767px)  {
   body {
     margin: 0;
     overflow-x: hidden;
@@ -19,7 +19,7 @@
     position: absolute;
     left: 0;
     top: 0;
-    height: 100vh;
+    height: 70vh;
     width: 100%;
   }
 
@@ -29,7 +29,7 @@
     position: absolute;
     left: 0;
     top: 0;
-    height: 100vh;
+    height: 70vh;
     width: 100%;
   }
 
@@ -138,13 +138,13 @@
   .digital-text {
     font-size: 1.9rem;
     width: 100%;
-    margin-top: 2rem;
+    margin-top: 1rem;
   }
   .digital {
     position: relative;
-    top:37rem;
+    top:20rem;
     margin-left: 3rem;
-    padding-bottom: 10rem;
+    padding-bottom: 2rem;
     width: 100%;
   }
   .digital-head {
@@ -153,10 +153,10 @@
   }
   .social {
     position: relative;
-    top: 30rem;
-    padding-bottom: 4rem;
+    top: 18rem;
+    padding-bottom: 2rem;
     width: 100%;
-    margin-left: 3.5rem;
+    margin-left: 2rem;
   }
   .social-div {
     display: flex;
@@ -165,7 +165,7 @@
     margin-top: -8rem;
   }
   .social-image-div {
-    width: 90%;
+    width: 100%;
   }
   .social-image {
     width: 100%;
@@ -174,7 +174,7 @@
   }
   .social-text {
     font-size: 1.9rem;
-    width: 100%;
+    width: 95%;
     margin-top: -1.6rem;
     margin-right: 3rem;
   }
@@ -186,9 +186,9 @@
 
   .content {
     position: relative;
-    padding-bottom: 12rem;
-    margin-left: 1.2rem;
-    top: 28rem;
+    padding-bottom: 2rem;
+    margin-left: 1rem;
+    top: 15rem;
   }
   .content-div {
     display: flex;
@@ -199,7 +199,7 @@
     font-size: 1.9rem;
     width: 100%;
     margin-left: 2rem;
-    margin-top: 2rem;
+    margin-top: 1rem;
   }
 
   .content-image {
@@ -223,8 +223,8 @@
   .branding {
     position: relative;
     width: 100%;
-    margin-left: 4rem;
-    top: 18rem;
+    margin-left: 2rem;
+    top: 12rem;
     padding-bottom: 10rem;
   }
   .brand-container {
@@ -254,7 +254,7 @@
 
   .portfolio-section {
     position: relative;
-    top: 18rem;
+    top: 6rem;
     width: 100%;
     padding-bottom: 10rem;
   }
@@ -290,11 +290,11 @@
     position: relative;
     width: 100%;
     margin-left: 2rem;
-    top: 14rem;
+    top: 2rem;
   }
   .successful-text {
     font-size: 1.9rem;
-    width: 100%;
+    width: 90%;
     margin-left: 1rem;
     margin-top: -2rem;
   }
@@ -313,7 +313,7 @@
   .case-studies {
     position: relative;
     padding-bottom: 2rem;
-    top:15rem;
+    top:4rem;
   }
   .case-div {
     display: flex;
@@ -335,7 +335,7 @@
   }
   .case-studies {
     position: relative;
-    padding-bottom: 10rem;
+    padding-bottom: 1rem;
   }
   .case-text {
     font-size: 1.9rem;
@@ -345,7 +345,7 @@
     position: relative;
     width: 100%;
     margin-left: -5.5rem;
-    top: 8rem;
+    top: 3rem;
     padding-bottom: 4rem;
   }
   .more-div {
@@ -370,7 +370,7 @@
   .about {
     position: relative;
     padding-bottom: 2rem;
-    top: 4rem;
+    top: -2rem;
   }
   .about-head {
     font-size: 4rem;
@@ -396,14 +396,14 @@
     margin-top: 2rem;
   }
   .about-img {
-    width: 95%;
+    width: 100%;
   }
 
   .at-info {
     position: relative;
     width: 100%;
-    margin-left: 4rem;
-    top: 4rem;
+    margin-left: 2rem;
+    top: -2rem;
   }
   .at-div {
     display: flex;
@@ -411,7 +411,7 @@
     gap: 2rem;
   }
   .at-img {
-    width: 95%;
+    width: 100%;
   }
   .at-image {
     width: 100%;
@@ -425,8 +425,8 @@
   .priority {
     position: relative;
     padding-bottom: 4rem;
-    margin-left: 1.8rem;
-    top: 8rem;
+    margin-left: 1rem;
+    top: -2rem;
   }
   .priority-div {
     display: flex;
@@ -451,7 +451,7 @@
     width: 90%;
     margin-left: 4rem;
     padding-bottom: 2rem;
-    top: 10rem;
+    top: -2rem;
   }
   .great-div {
     display: flex;
@@ -473,7 +473,7 @@
   .future {
     position: relative;
     padding-bottom: 2rem;
-    top: 14rem;
+    top: 2rem;
   }
   .future-div {
     display: flex;
@@ -492,14 +492,14 @@
     margin-top: 2rem;
   }
   .future-img {
-    width: 95%;
+    width: 100%;
   }
   .contacts {
     position: relative;
     width: 100%;
     margin-left: -3.5rem;
     padding-bottom: 4rem;
-    top: 10rem;
+    top: -2rem;
   }
   .contact-div {
     display: flex;
@@ -530,7 +530,7 @@
   }
   .info-text {
     font-size: 2rem;
-    margin-top:rem;
+    margin-top:-2rem;
     margin-left:2rem;
   }
   #name {
