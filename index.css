@@ -1,4 +1,4 @@
-@media (min-width: 1500px) {
+@media (min-width: 1200px) {
   body {
     margin: 0;
     overflow-x: hidden;
@@ -143,13 +143,12 @@
   }
   .digital {
     position: relative;
-    top: 30rem;
-    margin-left: 3rem;
+    top: 35rem;
+    margin-left: 5rem;
     padding-bottom: 4rem;
   }
   .digital-head {
     font-size: 3rem;
-    /* text-align:right; */
   }
   .image {
     width: 60%;
@@ -158,7 +157,7 @@
   }
   .social {
     position: relative;
-    top: 30rem;
+    top: 37rem;
     padding-bottom: 24rem;
     width: 90%;
     margin-left: 3.5rem;
@@ -193,7 +192,7 @@
     position: relative;
     padding-bottom: 12rem;
     margin-left: 1.2rem;
-    top: 8rem;
+    top: 15rem;
   }
   .content-div {
     display: flex;
@@ -227,7 +226,7 @@
     position: relative;
     width: 90%;
     margin-left: -4rem;
-    top: -2rem;
+    top: 8rem;
     padding-bottom: 10rem;
   }
   .brand-container {
@@ -258,7 +257,7 @@
   .portfolio-section {
     position: relative;
     padding-bottom: 10rem;
-    top: -3rem;
+    top: 8rem;
   }
   .portfolio-div {
     display: flex;
@@ -291,7 +290,7 @@
     position: relative;
     width: 90%;
     margin-left: -6rem;
-    top: -6rem;
+    top: 6rem;
   }
   .successful-text {
     font-size: 1.5rem;
@@ -311,7 +310,7 @@
   }
   .case-studies {
     position: relative;
-    padding-bottom: 2rem;
+    top: 10rem;
   }
   .case-div {
     display: flex;
@@ -341,7 +340,7 @@
     position: relative;
     width: 90%;
     margin-left: -5.5rem;
-    top: -6rem;
+    top: 4rem;
     padding-bottom: 4rem;
   }
   .more-div {
@@ -364,7 +363,7 @@
   .about {
     position: relative;
     padding-bottom: 2rem;
-    top: -6rem;
+    top: 6rem;
   }
   .about-head {
     font-size: 3rem;
@@ -394,7 +393,7 @@
     position: relative;
     width: 90%;
     margin-left: -5rem;
-    top: -4rem;
+    top: 8rem;
   }
   .at-div {
     display: flex;
@@ -415,7 +414,7 @@
   }
   .priority {
     position: relative;
-    /* padding-bottom: 10rem; */
+    top:12rem;
     margin-left: 1.8rem;
   }
   .priority-div {
@@ -436,6 +435,7 @@
   }
   .great {
     position: relative;
+    top:16rem;
     width: 90%;
     margin-left: -5rem;
     padding-bottom: 2rem;
@@ -459,6 +459,7 @@
   }
   .future {
     position: relative;
+    top:18rem;
     padding-bottom: 2rem;
   }
   .future-div {
@@ -479,9 +480,10 @@
   }
   .contacts {
     position: relative;
+    top:16rem;
     width: 90%;
     margin-left: -3.5rem;
-    padding-bottom: 4rem;
+    padding-bottom: 20rem;
   }
   .contact-div {
     display: flex;
@@ -508,6 +510,9 @@
   }
   .info-text {
     font-size: 1.7rem;
+    top:18rem;
+    padding:2rem;
+  
   }
   #name {
     width: 15%;
@@ -555,6 +560,7 @@
     background-color: rgba(38, 38, 38, 0.545);
     text-align: center;
     padding: 2rem;
+    margin-left:1rem;
   }
   .submit-button {
     padding: 1rem;
@@ -575,7 +581,6 @@
   .texts {
     font-size: 0.7rem;
     margin-left: 0.5rem;
-    /* color:white; */
   }
   .terms {
     display: flex;
@@ -591,5 +596,6 @@
   footer {
     background-color: #00000095;
     padding: 2rem;
+    margin-left:1rem;
   }
 }

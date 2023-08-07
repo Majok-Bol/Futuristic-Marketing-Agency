@@ -19,7 +19,7 @@
     position: absolute;
     left: 0;
     top: 0;
-    height: 70vh;
+    height: 60vh;
     width: 100%;
   }
 
@@ -29,7 +29,7 @@
     position: absolute;
     left: 0;
     top: 0;
-    height: 70vh;
+    height: 60vh;
     width: 100%;
   }
 
@@ -127,11 +127,9 @@
   .marketing {
     display: flex;
     flex-direction: column-reverse;
-    margin-top: -7rem;
   }
   .digital-image {
     width: 100%;
-    margin-top: 5rem;
     border-radius: 10px;
     margin-left:-1.95rem;
   }
@@ -142,7 +140,7 @@
   }
   .digital {
     position: relative;
-    top:20rem;
+    top:40rem;
     margin-left: 3rem;
     padding-bottom: 2rem;
     width: 100%;
