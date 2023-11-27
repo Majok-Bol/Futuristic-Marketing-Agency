@@ -570,79 +570,70 @@ footer {
   margin-left: 1rem;
 }
 
-@media (max-width:195px)  {
+@media (min-width: 194px) and (max-width: 494px) {
   body {
     margin: 0;
     overflow-x: hidden;
     background-color: red;
   }
   #header {
-    position: absolute;
-    display: none;
-  } */
-  
-  .text {
-    padding-bottom: 4rem;
+    position: relative;
   }
+
   .welcome {
     background-image: url("../images/001.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     position: absolute;
-    left: 0;
-    top: 0;
-     height: 100vh;
-     width: 100%
+    height: 100vh;
+    width: 100%;
   }
-  
+
   .welcome-overlay {
     content: "";
     background: rgba(0, 0, 0, 0.6);
     position: absolute;
-    left: 0;
-    top: 0;
     height: 100vh;
     width: 100%;
   }
-  
+
   .welcome2 {
     position: relative;
-    top: 15rem;
-    z-index: 99;
-    width: 80%;
-    margin: auto;
+    top: 1rem;
+    width: 100%;
     color: white;
     font-size: 1rem;
+    left: 4%;
   }
-  
+
   .nav-container {
     display: flex;
-    justify-content: space-around;
-    gap: 2rem;
-    flex-direction: row;
-    padding: 1rem;
+    flex-direction: column;
+    padding: 0.15rem;
+    gap: 0.1rem;
   }
   .image-header {
-    width: 30%;
+    width: 100%;
   }
   .logos {
-    padding: 3rem;
+    padding: 0.5rem;
   }
   .image-logo {
     width: 100%;
+    height: 100%;
   }
   a {
     text-decoration: none;
-    color: white;
+    color: blue;
   }
-  
+
   .items {
-    font-size: 1.5rem;
+    font-size: 0.65rem;
   }
-  
+
   .Btn {
-    width: 200px;
-    height: 80px;
+    width: 100px;
+    height: 40px;
     border: none;
     border-radius: 10px;
     background: linear-gradient(
@@ -665,7 +656,7 @@ footer {
     transition-duration: 1s;
     overflow: hidden;
   }
-  
+
   .Btn::before {
     position: absolute;
     content: "GET STARTED";
@@ -680,17 +671,17 @@ footer {
     background-color: rgba(0, 0, 0, 0.842);
     background-size: 200%;
   }
-  
+
   .Btn:hover {
     background-position: right;
     transition-duration: 1s;
   }
-  
+
   .Btn:hover::before {
     background-position: right;
     transition-duration: 1s;
   }
-  
+
   .Btn:active {
     transform: scale(0.95);
   }
@@ -699,34 +690,34 @@ footer {
   }
   .digital-div {
     display: flex;
-    margin-top: -7rem;
+    flex-direction: column-reverse;
+    margin-top: 2rem;
   }
   .digital-image {
     width: 100%;
     border-radius: 10px;
   }
   .digital-text {
-    font-size: 1.5rem;
+    font-size: 1.4rem;
     width: 100%;
-    margin-top: 5.6rem;
+    margin-top: 1rem;
   }
   .digital {
     position: relative;
-    top: 18rem;
-    margin-left: 1.5rem;
+    top: -2rem;
   }
   .digital-head {
-    font-size: 2rem;
+    font-size: 1.5rem;
+    text-align: center;
   }
   .social {
     position: relative;
-    top: 19rem;
+    top: -2rem;
     width: 100%;
-    margin-left: 1rem;
   }
   .social-div {
     display: flex;
-    flex-direction: row-reverse;
+    flex-direction: column-reverse;
     width: 100%;
   }
   .social-image-div {
@@ -735,43 +726,48 @@ footer {
   .social-image {
     width: 100%;
     border-radius: 10px;
+    margin-right: 0;
+    margin-left: 0;
   }
   .social-text {
-    font-size: 1.5rem;
-    width: 50%;
-    margin-right: 4rem;
-    margin-left: 2rem;
-    margin-top: 3rem;
+    font-size: 1.4rem;
+    width: 100%;
+    margin-right: 0;
+    margin-left: 0;
+    margin-top: 1rem;
   }
   .social-media {
-    font-size: 2rem;
-    text-align: right;
-    margin-right: 6rem;
-    margin-bottom: -3rem;
+    font-size: 1.5rem;
+    text-align: center;
+    margin-bottom: 1.5rem;
   }
-  
+
   .content {
     position: relative;
-    padding-bottom: 12rem;
+    padding-bottom: 2rem;
     margin-left: 1.2rem;
-    top: 20rem;
+    top: -3rem;
   }
   .content-div {
     display: flex;
+    flex-direction: column-reverse;
     width: 100%;
   }
   .content-text {
-    font-size: 1.5rem;
-    width: 50%;
-    margin-top: 4rem;
+    font-size: 1.4rem;
+    width: 100%;
+    margin-top: 1rem;
   }
   .content-heading {
-    font-size: 2rem;
-    margin-bottom: -3rem;
+    font-size: 1.5rem;
+    text-align: center;
+    margin-bottom: 1rem;
   }
   .content-image {
     width: 100%;
     border-radius: 10px;
+    margin-left: 0;
+    margin-right: 0;
   }
   .content-img {
     width: 100%;
@@ -779,12 +775,12 @@ footer {
   .branding {
     position: relative;
     width: 100%;
-    top: 10rem;
+    top: -6rem;
     padding-bottom: 10rem;
   }
   .brand-container {
     display: flex;
-    flex-direction: row-reverse;
+    flex-direction: column-reverse;
     gap: 2rem;
     margin-top: -6rem;
   }
@@ -794,43 +790,52 @@ footer {
   .brand-image {
     width: 100%;
     border-radius: 10px;
-    margin-left: 1rem;
+    margin-left: 0;
+    margin-right: 0;
   }
-  
+
   .branding-text {
     font-size: 1.5rem;
-    width: 50%;
-    margin-top: 5rem;
+    width: 100%;
+    margin-top: -1rem;
   }
   .brand-head {
-    font-size: 2rem;
-    text-align: right;
-    margin-right: 10rem;
+    font-size: 1.5rem;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 6rem;
+    text-align: center;
   }
-  
+
   .portfolio-section {
     position: relative;
-    padding-bottom: 4rem;
-    top: 10rem;
+    padding-bottom: 2rem;
+    top: -10rem;
   }
   .portfolio-div {
     display: flex;
+    flex-direction: column-reverse;
     margin-top: -7rem;
     width: 100%;
   }
   .portfolio-text {
     font-size: 1.5rem;
-    width: 60%;
-    margin-left: 2rem;
-    margin-top: 6rem;
+    width: 100%;
+    margin-right: 0;
+    margin-left: 0;
+    margin-top: 1rem;
   }
   .portfolio-head {
-    font-size: 2rem;
-    margin-left: 5rem;
+    font-size: 1.5rem;
+    margin-bottom: 8rem;
+    margin-left: 0;
+    margin-right: 0;
+    text-align: center;
   }
   .portfolio-image {
     width: 100%;
-    margin-left: 2rem;
+    margin-left: 0;
+    margin-right: 0;
     border-radius: 10px;
   }
   .portfolio-img {
@@ -840,56 +845,61 @@ footer {
     position: relative;
     width: 100%;
     margin-left: 1rem;
-    top: 7.5rem;
+    top: -10rem;
   }
   .successful-text {
-    font-size: 1.5rem;
-    width: 60%;
+    font-size: 1.4rem;
+    width: 100%;
     margin-top: 1rem;
+    margin-left: 0;
+    margin-right: 0;
   }
   .successful {
     display: flex;
-    flex-direction: row-reverse;
+    flex-direction: column;
     gap: 0.5rem;
   }
   .success-image {
     width: 100%;
     border-radius: 10px;
+    margin-right: 0;
+    margin-left: 0;
   }
   .success-img {
     width: 100%;
   }
   .case-studies {
     position: relative;
-    top: 10rem;
+    top: -8rem;
   }
   .case-div {
     display: flex;
+    flex-direction: column;
   }
   .case-text {
     font-size: 1.5rem;
-    width: 50%;
-    margin-left: 1rem;
+    width: 100%;
   }
   .case-image {
     width: 100%;
-    margin-left: 2rem;
     border-radius: 10px;
+    margin-left: 0;
+    margin-right: 0;
   }
   .case-img {
     width: 100%;
   }
-  
+
   .more-info {
     position: relative;
     width: 100%;
     margin-left: 1rem;
-    top: 12rem;
+    top: -6rem;
     padding-bottom: 2rem;
   }
   .more-div {
     display: flex;
-    flex-direction: row-reverse;
+    flex-direction: column;
     gap: 1rem;
   }
   .more-img {
@@ -898,12 +908,15 @@ footer {
   .more-image {
     width: 100%;
     border-radius: 10px;
+    margin-left: 0;
+    margin-right: 0;
   }
   .more-text {
     font-size: 1.5rem;
-    width: 50%;
+    width: 100%;
     margin-top: 1rem;
-    margin-right: 1rem;
+    margin-left: 0;
+    margin-right: 0;
   }
   .about {
     position: relative;
@@ -921,8 +934,9 @@ footer {
   }
   .about-text {
     font-size: 1.5rem;
-    width: 50%;
-    margin-left: 1rem;
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
     margin-top: 4.5rem;
   }
   .about-image {
@@ -933,7 +947,7 @@ footer {
   .about-img {
     width: 100%;
   }
-  
+
   .at-info {
     position: relative;
     width: 100%;
@@ -942,7 +956,7 @@ footer {
   }
   .at-div {
     display: flex;
-    flex-direction: row-reverse;
+    flex-direction: column-reverse;
     gap: 2rem;
   }
   .at-img {
@@ -986,7 +1000,7 @@ footer {
   }
   .great-div {
     display: flex;
-    flex-direction: row-reverse;
+    flex-direction: column;
     gap: 2rem;
   }
   .great-img {
@@ -1031,7 +1045,7 @@ footer {
   }
   .contact-div {
     display: flex;
-    flex-direction: row-reverse;
+    flex-direction: column;
     gap: 2rem;
     margin-top: -8rem;
   }
