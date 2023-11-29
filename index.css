@@ -1,19 +1,17 @@
 body {
-  width:100%;
-  height:100%;
-  padding:0;
+  width: 100%;
+  height: 100%;
+  padding: 0;
   margin: 0;
   overflow-x: hidden;
 }
 #header {
   position: absolute;
   display: flex;
-  left: 5%;
-  
 }
 
-.text {
-  padding-bottom: 4rem;
+.para {
+  padding: 1rem;
 }
 .welcome {
   background-image: url("../images/001.jpg");
@@ -34,6 +32,7 @@ body {
   top: 0;
   height: 100vh;
   width: 100%;
+  margin: 0 auto;
 }
 
 .welcome2 {
@@ -556,10 +555,10 @@ button {
   font-size: 0.7rem;
   margin-left: 0.5rem;
 }
- .terms {
+.terms {
   display: flex;
   justify-content: space-around;
- } 
+}
 .copy {
   font-size: 1.2rem;
   color: white;
@@ -575,15 +574,17 @@ footer {
 
 @media (min-width: 194px) and (max-width: 494px) {
   body {
-    width:100%;
-    height:100%;
-    padding:0;
+    width: 100%;
+    height: 100%;
+    padding: 0;
     margin: 0;
     overflow-x: hidden;
-    
   }
   #header {
     position: relative;
+  }
+  .para {
+    padding: 1rem;
   }
 
   .welcome {
@@ -1189,17 +1190,18 @@ footer {
 }
 @media (min-width: 374px) and (max-width: 814px) {
   body {
-    width:100%;
-    height:100%;
-    padding:0;
+    width: 100%;
+    height: 100%;
+    padding: 0;
     margin: 0;
     overflow-x: hidden;
-    
   }
   #header {
     position: relative;
   }
-
+  .para {
+    padding: 1rem;
+  }
   .welcome {
     background-image: url("../images/001.jpg");
     background-size: cover;
@@ -1223,34 +1225,27 @@ footer {
     width: 100%;
     color: white;
     font-size: 1rem;
- margin:0 auto;
   }
 
-  .nav-container {
-    display:block;
-    padding: 0.15rem;
-    margin-right:8rem;
-    
-
-  }
   .image-header {
-    width: 100%;
+    width: 80%;
+    z-index: 100;
   }
   .logos {
     padding: 0.5rem;
   }
+
   .image-logo {
     width: 100%;
-    height: 100%;
+    height: 80%;
   }
   a {
     text-decoration: none;
-    color: blue;
+    color: white;
   }
 
   .items {
     font-size: 1rem;
-    margin-right: 0;
   }
 
   .Btn {
@@ -1309,6 +1304,7 @@ footer {
   }
   .button {
     padding: 2rem;
+    margin-top: -2rem;
   }
   .digital-div {
     display: flex;
@@ -1318,6 +1314,7 @@ footer {
   .digital-image {
     width: 100%;
     border-radius: 10px;
+    margin: 0 auto;
   }
   .digital-text {
     font-size: 1.4rem;
@@ -1326,12 +1323,11 @@ footer {
   }
   .digital {
     position: relative;
-    top: -2rem;
+    top: -1rem;
   }
   .digital-head {
     font-size: 1.5rem;
     text-align: center;
-
   }
   .social {
     position: relative;
@@ -1349,14 +1345,13 @@ footer {
   .social-image {
     width: 100%;
     border-radius: 10px;
-    margin-right: 0;
-    margin-left: 0;
+    margin: 0 auto;
   }
   .social-text {
     font-size: 1.4rem;
     width: 100%;
-    margin-right: 0;
-    margin-left: 0;
+    margin: 0 auto;
+
     margin-top: 1rem;
   }
   .social-media {
@@ -1420,9 +1415,9 @@ footer {
   .branding-text {
     font-size: 1.5rem;
     width: 100%;
+    text-align: center;
     margin-top: -1rem;
-    margin-left:0;
-    margin-right:0;
+    margin: 0 auto;
   }
   .brand-head {
     font-size: 1.5rem;
@@ -1446,9 +1441,9 @@ footer {
   .portfolio-text {
     font-size: 1.4rem;
     width: 100%;
-    margin-left: 0;
-    margin-right: 0;
+    text-align: center;
     margin-top: 1rem;
+    margin: 0 auto;
   }
   .portfolio-head {
     font-size: 1.5rem;
@@ -1563,14 +1558,12 @@ footer {
     font-size: 1.4rem;
     width: 100%;
     margin-top: 4rem;
-    margin-left: 0;
-    margin-right: 0;
+    text-align: center;
   }
   .about-image {
     width: 100%;
     border-radius: 10px;
-    margin-left: 0;
-    margin-right: 0;
+    margin: 0 auto;
   }
   .about-img {
     width: 100%;
@@ -1592,9 +1585,7 @@ footer {
   .at-image {
     width: 100%;
     border-radius: 10px;
-    margin-left: 0;
-    margin-right: 0;
-    margin-top: -2rem;
+    margin: 0 auto;
   }
   .at-text {
     font-size: 1.4rem;
@@ -1614,8 +1605,7 @@ footer {
   .priority-text {
     font-size: 1.4rem;
     width: 100%;
-    margin-left: 0;
-    margin-right: 0;
+    text-align: center;
     margin-top: -3rem;
   }
   .priority-image {
@@ -1651,6 +1641,7 @@ footer {
     font-size: 1.4rem;
     width: 100%;
     margin-top: 1rem;
+    text-align: center;
   }
   .future {
     position: relative;
@@ -1664,8 +1655,7 @@ footer {
   .future-text {
     font-size: 1.4rem;
     width: 100%;
-    margin-left: 0;
-    margin-right: 0;
+    text-align: center;
     margin-top: -1rem;
   }
   .future-image {
@@ -1698,6 +1688,7 @@ footer {
     margin-left: 0;
     margin-right: 0;
     margin-top: 1rem;
+    padding: 1rem;
   }
   .contact-image {
     width: 100%;
@@ -1709,9 +1700,7 @@ footer {
   .contact-text {
     font-size: 1.4rem;
     width: 100%;
-    margin-top: 6.5rem;
-    margin-left: 0;
-    margin-right: 0;
+    text-align: center;
   }
   .info-text {
     font-size: 1.4rem;
@@ -1787,8 +1776,7 @@ footer {
     justify-content: space-around;
     padding: 1rem;
     text-align: center;
-    margin-top:-2rem;
-
+    margin-top: -2rem;
   }
   .texts {
     font-size: 0.7rem;
@@ -1798,7 +1786,7 @@ footer {
     font-size: 1rem;
     color: white;
     text-align: center;
-    margin-top:1rem;
+    margin-top: 1rem;
   }
   .copyrights {
     height: 10%;
@@ -1810,6 +1798,15 @@ footer {
     background-color: #00000095;
     padding: 1rem;
     margin-left: 1rem;
-    margin-top:-1rem;
+    margin-top: -1rem;
+  }
+}
+@media (min-width: 320px) {
+  .nav-container {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 100;
   }
 }
